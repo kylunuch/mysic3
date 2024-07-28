@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="header-wrapper">
+            <div class="container">
+                <header class="header">
+                    <nav class="header__nav">
+                        <div class="header__logo">
+                            <a href="/index.html">
+                                <img src="/img/cossacs-logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="index.html" class="header__link">ГОЛОВНА</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="/prawoautorskie.html" class="header__link-two">АВТОРСЬКІ ПРАВА</a>
+                            </li>
+                        </ul>
+                            <div class="containerr" id="music-container">
+                                <img class="player-img" src="" id="b-img">
+                                <div class="containerr-text">
+                                    <h2 class="h2" id="music-title">Song Title</h2>
+                                    <h3 class="h3" id="music-artist">Artist Name</h3>
+                                </div>
+                                <div class="box"> 
+                                    
+                        
+                                    <div class="player-progress" id="player-progress">
+                                        <div class="progress" id="progress"></div>
+                                        <div class="music-duration">
+                                            <span id="current-time">0:00</span>
+                                            <span id="duration">0:00</span>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="containerr4">
+                                        <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+                                        <i class="fa-solid fa-play play-button" title="Play" id="play"></i>
+                                        <i class="fa-solid fa-forward" title="Next" id="next"></i>
+                                    </div>
+                        
+                                    <img id="cover" src="" alt="cover" style="display: none;">
+                                    <img id="bg-img" src="" alt="background" style="display: none;">
+                                </div>
+                            </div>
+                    </nav>
+                        <div class="parallax-container">
+                            <div class="content">
+                                <div class="content-box">
+                                    <h1 class="content-box__title">Українські весільні пісні скачати або слухати онлайн</h1>
+                                    <p class="content-box__text">На нашому сайті ви можете скачати весільні пісні, а також слухати їх у режимі онлайн цілком безкоштовно!</p>
+                                </div>
+                                <div class="content-subscribe">
+                                   <p class="content-subscribe__p">❗Щоб скачувати пісні безкоштовно підпишіться на наш телеграм канал.</p> 
+                                   <a href="https://t.me/DreamShoppoficial" class="content-subscribe__a"><button class="content-subscribe__button">Підписатися!</button></a>
+                                </div>
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <div style="display: flex;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/oi-hto-pye.jpg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="/gop-cza-cza.html">Гоп-ца-ца</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="0"></i>
+                                            <a href="/music/Гоп-ца-ца[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/2.jpg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="/poroh-staroyi-gitary.html">Порох старої гітари</a>
+                                            <div id="buttons-container">
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="1"></i>
+                                            </div>
+                                            <a href="/music/Порох старої гітари[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/3.jpg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Танці до упаду</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="2"></i>
+                                            <a href="/music/Танці до упаду[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/4.jpg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Ой, хто п’є, тому наливайте</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="3"></i>
+                                            <a href="/music/Ой, хто п’є, тому наливайте[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/6.jpg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Іра, Ірина, Іруся</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="4"></i>
+                                            <a href="/music/Іра, Ірина, Іруся[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/5.jpg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Баба молода</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="5"></i>
+                                            <a href="/music/Баба молода[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/7.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">А Під Пиво Рибка</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="6"></i>
+                                            <a href="/music/А Під Пиво Рибка[vesilni-pisni.com] (1).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/maxresdefault242-768x432.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">А на нашій вулиці</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="7"></i>
+                                            <a href="/music/А на нашій вулиці[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/9.jpg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Самогоночка</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="8"></i>
+                                            <a href="/music/Самогоночка[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/8.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Перелаз,мій перелаз</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="9"></i>
+                                            <a href="/music/Перелаз,мій перелаз[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/10.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Річка річечка</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="10"></i>
+                                            <a href="/music/Річка річечка[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/11.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Полька Нині, Нині, Нині…</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="11"></i>
+                                            <a href="/music/Полька Нині, Нині, Нині…[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/image-15555-768x482.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Сиджу я край віконечка</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="12"></i>
+                                            <a href="/music/Сиджу я край віконечка[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/12.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">А я люблю сало</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="13"></i>
+                                            <a href="/music/А я люблю сало[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/13.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">А Кума хоче Кума</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="14"></i>
+                                            <a href="/music/А Кума хоче Кума[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/14.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Оксана</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="15"></i>
+                                            <a href="/music/Оксана[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/15.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Ой, Марічка чичері</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="16"></i>
+                                            <a href="/music/Ой, Марічка чичері[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/16.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Зелене листя білі каштани</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="17"></i>
+                                            <a href="/music/Зелене листя білі каштани[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;margin-top: -70px;">
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/17.jpeg" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Кохана теща</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="18"></i>
+                                            <a href="/music/Кохана теща[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="conteiner-box">
+                                        <img class="conteiner-box__img" src="/img/18.webp" alt="">
+                                        <div class="conteiner-box__div">
+                                            <a class="conteiner-box__div__a" href="">Червона ружа</a>
+                                            <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="19"></i>
+                                            <a href="/music/Червона ружа[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="mySlides fade">
+                                    <div style="display: flex;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/19.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Є у мене тесть</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="20"></i>
+                                                <a href="/music/Є у мене тесть[vesilni-pisni.com] (1).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/20.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Зозуленька</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="21"></i>
+                                                <a href="/music/Зозуленька[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/21.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Кухарка</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="22"></i>
+                                                <a href="/music/Кухарка[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/22.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Пиво йому не поможе</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="23"></i>
+                                                <a href="/music/Пиво йому не поможе весільна пісня[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/23.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Дякую тобі мамоя</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="24"></i>
+                                                <a href="/music/Дякую тобі мамо[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/24.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Ой Смереко</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="25"></i>
+                                                <a href="/music/Ой Смереко – весільна пісня[vesilni-pisni.com].mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/25.jpg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Не любиш ти мене</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="26"></i>
+                                                </audio>
+                                                <a href="music/ukrainski-vesilni-pisni-ne-lubis-ti-mene_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/26.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Чорні очка як терен</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="27"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-corni-ocka-ak-teren_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/27.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Я пив і ти пила</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="28"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-023-a-piv-i-ti-pila_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/28.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Іванко Баламут</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="29"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-ivanko-balamut_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/29.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Мене мати віддавала</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="30"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-mene-mati-viddavala_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/30.jpg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Ой, холера ясна</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="31"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-oj-holera-asna_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/33.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Теща, дай на машину</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="32"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-tesa-daj-na-masinu_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/32.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Весільні дружки</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="33"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-vesilni-druzki_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/31.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Я для тещі чботи купив</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="34"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-a-dla-tesi-coboti-kupiv_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/34.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Теща моя, теща</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="35"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-tesa-moa-tesa_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/35.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Прийди коханий</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="36"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-prijdi-kohanij_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/36.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Ваші курка, наш когут</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="37"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-vasi-kurka-nas-kogut_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;margin-top: -70px;">
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/37.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Висит в него, висит</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="38"></i>
+                                                <a href="music/ukrainski-vesilni-pisni-visit-v-negovisit_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="conteiner-box">
+                                            <img class="conteiner-box__img" src="/img/38.jpeg" alt="">
+                                            <div class="conteiner-box__div">
+                                                <a class="conteiner-box__div__a" href="">Очі сині у моєї дівчини</a>
+                                                <i class="fa-solid fa-play play-button play-left" title="Play" data-song-index="39"></i>
+                                                <a href="/music/ukrainski-vesilni-pisni-oci-sini-u-moei-divcini_(mufm.me).mp3" download><button class="conteiner-box__div__button">Скачати</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                <div style="text-align:center; margin-top: 25px;">
+                                    <span class="dot" onclick="currentSlide(1)"></span> 
+                                    <span class="dot" onclick="currentSlide(2)"></span> 
+                                </div>  
+                            <div>
+                                <div class="conteiner-text">
+                                    <p class="conteiner-text__p">Українська земля дуже багата на різноманітні звичаями і традиціями. 
+                                        Ось наприклад релігійні свята. Вам потрібно скачати весільні пісні 
+                                        Ніодне свято не пройшло без української музики,
+                                        пісень які в своїх формах дійшла до нашого часу і зафіксовані у численних варіантах 
+                                        та локально-регіональних виявах. Найдавніший пласт весільних пісень генетичне
+                                        пов'язаний з обрядами і розкриває їхню символіку та семантику. Згодом цей пласт почав 
+                                        доповнюватися зразками, що відбивали індивідуальну психологію, тобто настрій присутніх 
+                                        під час тієї чи іншої весільної дії. <br> <br>
+                                        З кінця XIX — початку XX ст. на весіллі все частіше викокувались ліричні 
+                                        або жартівливі пісні, які не мали безпосереднього зв'язку з традиційною обрядовістю.
+                                    </p>
+                                    <h2 class="conteiner-text__h2">Місце весільних пісень у нашому житті</h2>
+                                    <p class="conteiner-text__p">Головне місце в них посідає родинно-побутова лірика, що розкривають символіку 
+                                       окремих обрядів — вінкоплетіння, виготовлення короваю. За структурою поділяються
+                                       на замовляння, пісні-величання є досить віддаленими від гумористично-сатиричних пісень 
+                                       суто дидактичного характеру, тому їх важко вважати різновидами одного жанру. 
+                                       Слухати веcільні пісні будь-якого жанру можна пряму на сайті. <br> <br>
+
+                                       Однак всі вони органічно вписуються в обряд весілля, розкриваю­чи найтонші грані 
+                                       цього важливого родинного свята . Виникнувши ще в первісному суспільстві, весільні 
+                                       обряди та пісні створювалися колективним автором-народом — протягом віків. Кожна 
+                                       наступна епоха накладала на них свій відбиток: текст варіювався, вносились доповнення 
+                                       або скорочення в обрядові дійства, прозові діалоги й монологи. Це зумовлювалося певними 
+                                       змінами в самому житті, психології людей, віруваннях, родинних і суспільних відносинах тощо.
+                                    </p>
+                                    <h2 class="conteiner-text__h2">Як скачати весільні пісні безкоштовно?</h2>
+                                    <p class="conteiner-text__p">
+                                        Не довго шукаючи потрібно відвідати vesilni-pisni.com послухати декілька 
+                                        копозицій натиснувши кнопку одразу у плеєрі ви побачите пісню що відтворюється. 
+                                        Якщо ця пісня вам сподобається просто натисність кнопку скачати весільні пісні 
+                                        вас перекине на сторінку самої композиції де після натискання на ту саму кнопку 
+                                        почнеться завантаження!                                  
+                                    </p>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </header>  
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__logo">
+                        <a href="/index.html">
+                            <img src="/img/cossacs-logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="footer__text">
+                        <p>Зроблено в Україні 🇺🇦</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/javascript.js"></script>
+</body>
+</html>
